@@ -118,6 +118,7 @@
     background-color: var(--color-view-btn);
     color: white;
     transition: 0.4s;
+    text-decoration: none;
 }
 
 .product-view-btn:hover{
