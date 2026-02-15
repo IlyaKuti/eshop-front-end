@@ -12,43 +12,11 @@
 
 :root {
     --width-height : 50px;
-    --margin-left-right : 60px;
+    --margin-left : 60px;
     --width-height-intro-image : 600px;
     --width-height-image-product : 300px;
     --text-color : #1a2a80;
     --color-view-btn : #110094;
-}
-
-.nav-bar-logo img{
-    width: var(--width-height);
-    height: var(--width-height);
-    margin-left: var(--margin-left-right);
-}
-
-.nav-bar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 70px;
-}
-
-.nav-bar-signup-signin-links {
-    margin-right: var(--margin-left-right);
-    background-color: var(--text-color);
-    padding: 10px 20px 10px 20px;
-    border-radius: 20px;
-    color: white;
-}
-
-.nav-bar-links a{
-    text-decoration: none;
-    color: #374590;
-}
-
-.nav-bar-links {
-    display: flex;
-    gap: 20px;
 }
 
 .main-intro-image img{
